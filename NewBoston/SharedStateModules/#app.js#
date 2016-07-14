@@ -1,0 +1,9 @@
+require('./emily');
+require('./bucky');
+
+var vamp = function() {
+    var x = 3;
+    function() {
+    };:
+
+};

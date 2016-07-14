@@ -1,0 +1,7 @@
+function printAvatar() {
+    console.log("Avatar: PG13");
+};
+
+function printDog() {
+    console.log("dog");
+};
