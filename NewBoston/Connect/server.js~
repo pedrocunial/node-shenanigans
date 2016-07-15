@@ -1,0 +1,8 @@
+var connect = request('connect');
+var http    = request('http');
+
+// This is pretty standard naming convention
+var app = connect();
+
+http.createServer(app).listen(8888);
+console.log("Server is running...");
