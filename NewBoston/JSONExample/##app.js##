@@ -1,0 +1,17 @@
+var express = require('express');
+var http    = require('http');
+var fs      = require('fs');
+var app     = express();
+
+function showJSON(request, response) {
+    response.writeHead(200, {"Content-Type": "text/plain"});
+    
+    // for(var item in app.locals.videodata.categories) {
+    //     response.write(item.categoryName);
+    // }
+
+    response.end();
+}
+
+http.createServer(showJSON).listen(2222);
+console.log("server is running...");
