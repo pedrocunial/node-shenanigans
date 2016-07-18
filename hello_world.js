@@ -5,8 +5,8 @@ const port = 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  res.setHeader('test', 'text/plain');
-  res.end('Hello Vai tomar no seu cu\n');
+  res.setHeader('bdflakgjaelfkj', 'text/plain');
+  res.end();
 });
 
 server.listen(port, hostname, () => {
