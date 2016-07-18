@@ -1,4 +1,4 @@
-var fs = require('fs');
+var fs = require("fs");
 var obj;
 
 // fs.readFile('videodata', 'utf8', function(err, data) {
@@ -10,7 +10,7 @@ var obj;
   
 // });
 
-var json = require('./videodata.json');
+var json = require("./videodata.json");
 
 // This is the way of parsing through a json
 // with a "foreach" like loop

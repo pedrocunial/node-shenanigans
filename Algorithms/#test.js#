@@ -10,3 +10,8 @@ likes.input  = joe;
 likes.output = minecraft;
 minecraft.input.push(likes);
 print(joe.output);
+
+
+if(x == 3) {
+  ''
+}
